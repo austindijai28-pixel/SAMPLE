@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SQL Form Connection</title>
+    <style>
+        body { font-family: sans-serif; display: flex; justify-content: center; padding-top: 50px; }
+        form { border: 1px solid #ccc; padding: 20px; border-radius: 8px; }
+        input { display: block; margin-bottom: 10px; padding: 8px; width: 200px; }
+        button { cursor: pointer; background: #007bff; color: white; border: none; padding: 10px; width: 100%; }
+    </style>
+</head>
+<body>
+
+    <form action="/submit" method="POST">
+        <h3>Register User</h3>
+        <input type="text" name="username" placeholder="Full Name" required>
+        <input type="email" name="email" placeholder="Email Address" required>
+        <button type="submit">Send to Database</button>
+    </form>
+
+</body>
+</html>
